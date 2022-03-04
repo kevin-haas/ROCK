@@ -1,4 +1,4 @@
-# ROCK
+# ROCS
 Demonstration Website for Climbing Gear Supplier
 
 Photos and Logo:
