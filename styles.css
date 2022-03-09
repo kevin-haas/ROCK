@@ -5,6 +5,7 @@ body {
     align-items: center;
     margin: 0;
     justify-content: space-between;
+    min-height: 100vh;
 }
 
 .header,
@@ -13,7 +14,7 @@ body {
     color: white;
     flex: 0;
     width: 100vw;
-    padding: 10px 200px;
+    padding: 10px 10vw;
     box-sizing: border-box;
 }
 
@@ -31,6 +32,10 @@ h2 {
     display: flex;
     justify-content: center;
     column-gap: 50px;
+    flex-wrap: wrap;
+    padding: 0 100px;
+    flex: 1;
+    row-gap: 40px;
 }
 
 .card {
@@ -45,22 +50,21 @@ h2 {
 }
 
 .quote {
-    flex: 0;
     background-color: #E5E7EB;
     width: 100vw;
     font-style: italic;
     font-size: 36px;
-    padding: 80px 300px;
+    padding: 80px 10vw;
     box-sizing: border-box;
 }
 
 .banner{
     flex: 0;
     background-color: #3882F6;
-    padding: 50px 200px;
+    padding: 50px 10vw;
     display: flex;
     align-self: stretch;
-    margin: 60px 200px;
+    margin: 80px 10vw;
     box-sizing: border-box;
     color: white;
     font-size: 16px;
@@ -113,7 +117,7 @@ button {
 .side-by-side {
     display: flex;
     padding: 30px 0px;
-    column-gap: 300px;
+    column-gap: 10vw;
 }
 
 .name {
@@ -126,4 +130,8 @@ button {
 #button-link {
     border: 2px solid white;
     padding: 0 30px;
+}
+
+.block {
+    max-width: 400px;
 }
